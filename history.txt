@@ -1,0 +1,27 @@
+  958  ls -la
+  959  cd ..
+  960  ls -la
+  961  git clone git@github.com:volodymyr-hlavnyi/hw-12-linux.git
+  962  ls -la
+  963  cd hw-12-linux/
+  964  git status
+  965  git branch feature
+  966  git status
+  967  git branch -v
+  968  git checkout -b feature
+  969  git checkout feature
+  970  git branch -v
+  971  ls -la
+  972  nano readme.md
+  973  git status
+  974  git add readme.md
+  975  git status
+  976  git commit .
+  977  git status
+  978  git push
+  979  git push --set-upstream origin feature
+  980  git commit --amend
+  981  git checkout main
+  982  git status
+  983  git merge feature
+  984  history > history.txt
